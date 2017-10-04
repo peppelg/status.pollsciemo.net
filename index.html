@@ -1,23 +1,23 @@
+
 <!DOCTYPE html>
 <html>
-
 <head>
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css">
-  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Stato Pollsciemo</title>
-  <link rel="icon" type="image/jpg" href="https://i.imgur.com/M0VWgpNl.jpg">
-  <meta name="description" content="Stato di Pollsciemo" />
-  <meta property="og:title" content="Pollsciemo" />
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://pollsciemo.net" />
-  <meta property="og:image" content="https://i.imgur.com/M0VWgpNl.jpg" />
-  <meta property="og:description" content="Stato di Pollsciemo" />
-  <meta property="og:locale" content="it_IT" />
-  <meta name="theme-color" content="#ee6e73" />
-  <style>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css">
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Stato Pollsciemo</title>
+<link rel="icon" type="image/jpg" href="https://i.imgur.com/M0VWgpNl.jpg">
+<meta name="description" content="Stato di Pollsciemo" />
+<meta property="og:title" content="Pollsciemo" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://pollsciemo.net" />
+<meta property="og:image" content="https://i.imgur.com/M0VWgpNl.jpg" />
+<meta property="og:description" content="Stato di Pollsciemo" />
+<meta property="og:locale" content="it_IT" />
+<meta name="theme-color" content="#ee6e73" />
+<style>
 * {
     -webkit-touch-callout: none;
     -webkit-user-select: none;
@@ -28,106 +28,111 @@
 }
 </style>
 </head>
-
 <body>
-  <nav>
-    <div class="nav-wrapper">
-      <a href="https://pollsciemo.net" class="brand-logo center">Pollsciemo</a>
-      <a href="#" data-activates="mobile" class="button-collapse"><i class="material-icons">menu</i></a>
-      <ul class="right hide-on-med-and-down">
-        <li><a href="https://pollsciemo.net">Home</a></li>
-        <li><a href="https://pollsciemo.net/clona">Clona bot</a></li>
-        <li><a href="https://pollsciemo.community">Community</a></li>
-        <li><a href="https://pollsciemo.store">Store</a></li>
-        <li><a href="https://pollsciemo.news">News</a></li>
-        <li class="active"><a href="https://pollsciemo.net/altro">Altro</a></li>
-      </ul>
-      <ul class="side-nav" id="mobile">
-        <li><a href="https://pollsciemo.net">Home</a></li>
-        <li><a href="https://pollsciemo.net/clona">Clona bot</a></li>
-        <li><a href="https://pollsciemo.community">Community</a></li>
-        <li><a href="https://pollsciemo.store">Store</a></li>
-        <li><a href="https://pollsciemo.news">News</a></li>
-        <li class="active"><a href="https://pollsciemo.net/altro">Altro</a></li>
-      </ul>
-    </div>
-  </nav>
-  <br><br><br>
-  <div style="display: table;
+<nav>
+<div class="nav-wrapper">
+<a href="https://pollsciemo.net" class="brand-logo center">Pollsciemo</a>
+<a href="#" data-activates="mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+<ul class="right hide-on-med-and-down">
+<li><a href="https://pollsciemo.net">Home</a></li>
+<li><a href="https://pollsciemo.net/clona">Clona bot</a></li>
+<li><a href="https://pollsciemo.community">Community</a></li>
+<li><a href="https://pollsciemo.store">Store</a></li>
+<li><a href="https://pollsciemo.news">News</a></li>
+<li class="active"><a href="https://pollsciemo.net/altro">Altro</a></li>
+</ul>
+<ul class="side-nav" id="mobile">
+<li><a href="https://pollsciemo.net">Home</a></li>
+<li><a href="https://pollsciemo.net/clona">Clona bot</a></li>
+<li><a href="https://pollsciemo.community">Community</a></li>
+<li><a href="https://pollsciemo.store">Store</a></li>
+<li><a href="https://pollsciemo.news">News</a></li>
+<li class="active"><a href="https://pollsciemo.net/altro">Altro</a></li>
+</ul>
+</div>
+</nav>
+<br><br><br>
+<div style="display: table;
   margin: 0 auto;">
-  <div id="bot">Bot Pollsciemo: <div class="preloader-wrapper small active">
-    <div class="spinner-layer spinner-green-only">
-      <div class="circle-clipper left">
-        <div class="circle"></div>
-      </div><div class="gap-patch">
-        <div class="circle"></div>
-      </div><div class="circle-clipper right">
-        <div class="circle"></div>
-      </div>
-    </div>
-  </div></div>
-  <div id="sito">Sito web: <div class="preloader-wrapper small active">
-    <div class="spinner-layer spinner-green-only">
-      <div class="circle-clipper left">
-        <div class="circle"></div>
-      </div><div class="gap-patch">
-        <div class="circle"></div>
-      </div><div class="circle-clipper right">
-        <div class="circle"></div>
-      </div>
-    </div>
-  </div></div></div>
-  <script>
-  var start_time = new Date().getTime();
-  $.ajax({
-  type: "GET",
-  url: "https://tgbot.it/Pollsciemo/index.php",
-  dataType: "html",
-  timeout: 10000,
-  success: function(risposta){
-    request_time = (new Date().getTime() - start_time)/1000;
-    $('#bot').html('Bot Pollsciemo: Online! (' + request_time + 's)');
-  },
-  error: function(){
-    $('#bot').html('Bot Pollsciemo: Offline :-(');
-  }
-});
-  $.ajax({
-  type: "GET",
-  url: "https://pollsciemo.net/online.php",
-  dataType: "html",
-  timeout: 10000,
-  success: function(risposta){
-    request_time = (new Date().getTime() - start_time)/1000;
-    $('#sito').html('Sito web: Online! (' + request_time + 's)');
-  },
-  error: function(){
-    $('#sito').html('Sito web: Offline :-(');
-  }
-});
+<div id="bot">Bot Pollsciemo: <div class="preloader-wrapper small active">
+<div class="spinner-layer spinner-green-only">
+<div class="circle-clipper left">
+<div class="circle"></div>
+</div><div class="gap-patch">
+<div class="circle"></div>
+</div><div class="circle-clipper right">
+<div class="circle"></div>
+</div>
+</div>
+</div></div>
+<div id="sito">Sito web: <div class="preloader-wrapper small active">
+<div class="spinner-layer spinner-green-only">
+<div class="circle-clipper left">
+<div class="circle"></div>
+</div><div class="gap-patch">
+<div class="circle"></div>
+</div><div class="circle-clipper right">
+<div class="circle"></div>
+</div>
+</div>
+</div></div><button onclick="status();" class="waves-effect waves-light btn red darken-1">Ricarica</button></div>
+<script>
+  var start_time = 0;
+  function status() {
+    start_time = new Date().getTime();
+    $.ajax({
+    type: "GET",
+    url: "https://tgbot.it/Pollsciemo/index.php",
+    dataType: "html",
+    timeout: 10000,
+    success: function(risposta){
+      request_time = (new Date().getTime() - start_time)/1000;
+      $('#bot').html('Bot Pollsciemo: Online! (' + request_time + 's)');
+    },
+    error: function(){
+      $('#bot').html('Bot Pollsciemo: Offline :-(');
+    }
+  });
+    $.ajax({
+    type: "GET",
+    url: "https://pollsciemo.net/online.php",
+    dataType: "html",
+    timeout: 10000,
+    success: function(risposta){
+      request_time = (new Date().getTime() - start_time)/1000;
+      $('#sito').html('Sito web: Online! (' + request_time + 's)');
+    },
+    error: function(){
+      $('#sito').html('Sito web: Offline :-(');
+    }
+  });
+}
 </script>
 <script>
 $(document).ready(function() {
   $(".button-collapse").sideNav();
+  status();
+  setInterval(function(){
+  status()
+  }, 15000);
 });
 </script>
 <br><br><br><br>
 <footer class="page-footer">
-  <div class="container">
-    <div class="row">
-      <div class="col l6 s12">
-        <h5 class="white-text">Pollsciemo</h5>
-        <p class="grey-text text-lighten-4">La community più cancro di shitstormer su Telegram Italia.</p>
-      </div>
-      <div class="col l4 offset-l2 s12">
-      </div>
-    </div>
-  </div>
-  <div class="footer-copyright">
-    <div class="container">
-    </div>
-  </div>
+<div class="container">
+<div class="row">
+<div class="col l6 s12">
+<h5 class="white-text">Pollsciemo</h5>
+<p class="grey-text text-lighten-4">La community più cancro di shitstormer su Telegram Italia.</p>
+</div>
+<div class="col l4 offset-l2 s12">
+</div>
+</div>
+</div>
+<div class="footer-copyright">
+<div class="container">
+</div>
+</div>
 </footer>
 </body>
-
 </html>
